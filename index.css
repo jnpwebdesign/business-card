@@ -9,9 +9,104 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    background-color: gray;
+    background-color: rgb(209, 209, 209);
+    font-family: 'Lato', sans-serif
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#julie-image {
+    position: absolute;
+    height: 200px;
+    z-index: 100;
+}
+
+#upper-container {
+    width: 400px;
+    height: 150px;
+    background-image: linear-gradient(to right, var(--dark-blue), var(--sea-green))
+
+}
+
+#title-text {
+    width: 400px;
+    height: 75px;
+    border: 1px solid black;
+    line-height: 10px;
+    text-align: center;
+    justify-content: flex-end;
 }
 
 h1 {
+    font-family: 'Whisper', cursive;
+    font-size: 32px;
+    text-shadow: 2px 2px 8px black;
 
 }
+
+h2 {
+    text-shadow: 2px 2px 8px black;
+    font-size: 12px;
+}
+
+
+#websites-text {
+    text-align: right;
+    line-height: 8px;
+}
+
+.website {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+#lower-container {
+    background-color: white;
+    height: 50px;
+    margin: 0;
+    line-height: 8px;
+    text-align: right;
+}
+
+.contact-info, .contact-info a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    padding-right: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+}
+
+.contact-info a {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info a:hover {
+    font-size: 12.5px;
+
+}
+
+/*
+CSS rules to specify families
+
+font-family: 'Allura', cursive;
+font-family: 'Birthstone', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Petemoss', cursive;
+font-family: 'Pompiere', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Square Peg', cursive;
+font-family: 'Whisper', cursive;
+*/
