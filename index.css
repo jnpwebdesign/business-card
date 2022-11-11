@@ -32,24 +32,22 @@ body {
 #upper-container {
     width: 400px;
     height: 150px;
-    background-image: linear-gradient(to right, var(--dark-blue), var(--sea-green))
-
+    background-image: linear-gradient(to right, var(--dark-blue), var(--sea-green));
 }
 
 #title-text {
     width: 400px;
-    height: 75px;
-    border: 1px solid black;
+    height: 55px;
     line-height: 10px;
     text-align: center;
-    justify-content: flex-end;
+    margin-left: 70px;
+    padding-bottom: 0;
 }
 
 h1 {
     font-family: 'Whisper', cursive;
     font-size: 32px;
     text-shadow: 2px 2px 8px black;
-
 }
 
 h2 {
@@ -57,17 +55,24 @@ h2 {
     font-size: 12px;
 }
 
-
 #websites-text {
-    text-align: right;
+    margin-right: 20px;
+    margin-left: 160px;
+    text-align: center;
     line-height: 8px;
+    font-size: 16px;
 }
 
 .website {
-
     text-decoration: none;
     color: white;
+}
 
+.website:hover {
+    font-size: 17px;
+    text-shadow: 2px 2px 8px rgb(193, 193, 127);
+    transition: all 0.2s;
+    font-weight: bold;
 }
 
 #lower-container {
@@ -86,14 +91,22 @@ h2 {
     font-size: 12px;
 }
 
+.contact-info {
+    margin-top: 20px;
+}
 .contact-info a {
     padding: 0;
     margin: 0;
 }
 
+i {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
 .contact-info a:hover {
-    font-size: 12.5px;
-
+    transition: all 0.2s;
+    font-weight: bold;
 }
 
 /*
