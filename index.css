@@ -1,0 +1,17 @@
+
+
+:root {
+    --dark-blue: #145277;
+    --sea-green: #83d0cb;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: gray;
+}
+
+h1 {
+
+}
